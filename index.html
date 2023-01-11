@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz do futuro</title>
+  </head>
+  <body>
+    <img onclick="vaitomarnocu()" src="assets/logo-quiz-do-futuro.png" alt="" />
+
+    <div class="ask-1" onclick="chegarRespota(event)">
+      <h1>PARA TRABALHAR COM PROGRAMAÇÃO EU PRECISO:</h1>
+      <button>Ser uma pessoa boa em matemática</button>
+      <button>Ter usado computador desde criança e jogar video game</button>
+      <button class="correta">
+        Gostar de resolver problemas e trabalhar em equipe
+      </button>
+    </div>
+
+    <div class="ask-2 off" onclick="chegarRespota(event)">
+      <h1>PARA TRABALHAR COM PROGRAMAÇÃO EU PRECISO:</h1>
+      <button>Ser uma pessoa boa em matemática</button>
+      <button class="correta">
+        Gostar de resolver problemas e trabalhar em equipe
+      </button>
+      <button>Ter usado computador desde criança e jogar video game</button>
+    </div>
+
+    <div class="ask-3 off" onclick="chegarRespota(event)">
+      <h1>PARA TRABALHAR COM PROGRAMAÇÃO EU PRECISO:</h1>
+      <button class="correta">
+        Gostar de resolver problemas e trabalhar em equipe
+      </button>
+      <button>Ser uma pessoa boa em matemática</button>
+      <button>Ter usado computador desde criança e jogar video game</button>
+    </div>
+
+    <div class="ask-4 off" onclick="chegarRespota(event)">
+      <h1>PARA TRABALHAR COM PROGRAMAÇÃO EU PRECISO:</h1>
+      <button>Ser uma pessoa boa em matemática</button>
+      <button class="correta">
+        Gostar de resolver problemas e trabalhar em equipe
+      </button>
+      <button>Ter usado computador desde criança e jogar video game</button>
+    </div>
+
+    <div class="ask-5 off" onclick="chegarRespota(event)">
+      <h1>PARA TRABALHAR COM PROGRAMAÇÃO EU PRECISO:</h1>
+      <button>Ser uma pessoa boa em matemática</button>
+      <button>Ter usado computador desde criança e jogar video game</button>
+      <button class="correta">
+        Gostar de resolver problemas e trabalhar em equipe
+      </button>
+    </div>
+
+    <div class="resultado off">
+        <h1>PARABÉNS!</h1>
+        <h1>VOCÊ ACERTOU <span class="acertadas">2</span> DE 5 PERGUNTAS</h1>
+        <button class="inicio" onclick="voltarParaoFuturo()">Voltar para o início</button>
+    </div>
+
+    <p><span class="pergunta-atual">1</span>/5</p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
